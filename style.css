@@ -32,6 +32,7 @@ header{
 	height:auto;
 	justify-content:space-between;
 	padding:20px 0px;
+	
 }
 
 
@@ -564,7 +565,7 @@ nav a:hover{
 	padding:40px 0px;
 }
 .contact-input{
-	display:flex;
+	display:;
 	
 	gap:30px;
 }
@@ -873,6 +874,9 @@ footer{
 		display:flex;
 		flex-direction:column-reverse;
 	}
+	.head{
+		display:none;
+	}
 	.head-columnrgt{
 		width:90%;
 		margin:0 auto;
@@ -892,6 +896,12 @@ footer{
 		width:100%;
 	}
 	.contact-column{
+		width:100%;
+	}
+	.labl{
+		width:100%;
+	}
+	.labl2{
 		width:100%;
 	}
 	.portifolio-image{
@@ -974,6 +984,9 @@ footer{
 	.contact-column{
 		width:100%;
 	}
+	.contact-input{
+		display:flex;
+	}
 	.image-col{
 	width:100%;
 	}
@@ -993,7 +1006,7 @@ footer{
 	.team-image img{
 		width:100%;
 	}
-		.abov-content{
+	.abov-content{
 		width:45%;
 	}
 	.service-column{
@@ -1002,7 +1015,7 @@ footer{
 	.gallery-image{
 		width:33%;
 	}
-		.foot-address{
+	.foot-address{
 		width:50%;
 	}
 	.foot-links{
@@ -1029,6 +1042,9 @@ footer{
 		flex-wrap:wrap;
 		flex-direction:row;
 	}
+	.head{
+		display:flex;
+	}
 	.head-columnrgt{
 		width:50%;
 	}
@@ -1050,6 +1066,9 @@ footer{
 	}
 	.contact-column{
 		width:50%;
+	}
+	.contact-input{
+		display:flex;
 	}
 	.image-col{
 	width:32%;
